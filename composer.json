@@ -1,0 +1,11 @@
+{
+  "autoload":{
+    "psr-4":{
+      "BakalarskaPraca\\PHPUnit\\Controler\\Calculator\\": "src/controler/calculator",
+      "BakalarskaPraca\\PHPUnit\\Controler\\Calculator\\Tests\\": "tests/"
+    }
+  },
+  "require-dev":{
+    "phpunit/phpunit": "7.0.*"
+  }
+}
