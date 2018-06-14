@@ -11,6 +11,6 @@ namespace BakalarskaPraca\PHPUnit\Controler\Calculator;
 class Calculator{
 
     public function calc($a, $b){
-        return $a-$b;
+        return $a+$b;
     }
 }
