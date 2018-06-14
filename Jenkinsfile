@@ -16,10 +16,5 @@ pipeline {
         sh 'vendor/bin/phpunit'
       }
     }
-    stage('Ulozenie vysledkov') {
-      steps {
-        junit 'testresult'
-      }
-    }
   }
 }
